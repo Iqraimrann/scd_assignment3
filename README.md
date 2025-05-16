@@ -37,5 +37,3 @@ A simple yet powerful **Library Management System** built using Python’s `tkin
    ```bash
    python library_gui.py
 
-## 📦 Screenshot   
-![App Screenshot](https://postimg.cc/CZ36Y25b)
