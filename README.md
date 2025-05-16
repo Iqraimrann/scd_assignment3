@@ -36,4 +36,6 @@ A simple yet powerful **Library Management System** built using Python’s `tkin
 3. Run the application:
    ```bash
    python library_gui.py
-![App Screenshot](assets/screenshot.png)
+
+## 📦 Screenshot   
+![App Screenshot](https://postimg.cc/CZ36Y25b)
