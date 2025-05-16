@@ -1,6 +1,6 @@
-# 📚 Library Management System (Tkinter GUI)
+# 📚 Library Management System (Tkinter & PyQt GUI)
 
-A simple yet powerful **Library Management System** built using Python’s `tkinter` GUI toolkit. This app allows you to manage physical and digital books — add, lend, return, and remove books easily, with a user-friendly interface.
+A simple yet powerful **Library Management System** built using Python’s GUI toolkits: `tkinter` and `PyQt`. This app allows you to manage physical and digital books — add, lend, return, and remove books easily, with user-friendly interfaces available in both frameworks.
 
 ---
 
@@ -13,6 +13,7 @@ A simple yet powerful **Library Management System** built using Python’s `tkin
 - 🧑‍💼 **Search by Author**: Find all books available by a specific author.
 - ✅ **Digital Library Support**: Special handling for eBooks, including file size input.
 - 🧠 **OOP Design**: Built with clean, extensible object-oriented Python code.
+- 🖥️ **Two UI Options**: Available with both `Tkinter` and `PyQt` GUI versions.
 
 ---
 
@@ -25,15 +26,24 @@ A simple yet powerful **Library Management System** built using Python’s `tkin
 ## 🛠️ Technologies Used
 
 - **Python 3**
-- **Tkinter** - For the GUI interface
+- **Tkinter** - For the lightweight GUI version
+- **PyQt5** - For the modern GUI alternative (more styling options)
+
+---
+
+## 📂 File Structure
+
+- `library_gui_tkinter.py` — ✅ Tkinter version of the app
+- `library_gui_pyqt.py` — ✅ PyQt version of the app
+
+Each file implements the same functionality but uses a different Python GUI library.
 
 ---
 
 ## 📦 How to Run
 
-1. Make sure Python is installed: `python --version`
-2. Save the script as `library_gui.py`
-3. Run the application:
-   ```bash
-   python library_gui.py
+### 🟦 Run the Tkinter Version
 
+1. Make sure Python is installed:  
+   ```bash
+   python --version
